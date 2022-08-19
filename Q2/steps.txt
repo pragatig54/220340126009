@@ -1,0 +1,50 @@
+step 1:
+        first login to your aws console.
+step 2:
+        search for EC2 instance in search bar.
+step 3:
+        click on launch instance.
+step 4:
+        in name and tags field give name to your instance.
+step 5:
+        in application and Os images filed click on Quick start.
+step 6:
+        in that select on ubuntu-20.04 AMI which is free tire.
+step 7:
+        go to key pair login
+step 8:
+        click on create new key pair
+step 9:
+        enter key pair name whatever you want click on craete key.
+step 10:
+        click on launch instance.
+step 11 :
+        click on veiw instance in Instance field your instance will be created.
+step 12:
+        click on the instance.check instance state is running 
+
+step 13:
+        click on security. go to security groups click on the link.
+steep 14:
+        go to edit inbound. check ssh port type and port no as 22 click on source type to Anywhere-IPv4.
+step 15:
+        click on add rule. click on type and click on http.
+        check port 80 is for http. select source type as Anywhere-IPv4.
+step 16:
+        click on save rules.
+step 17:
+        after that check once how many inbounds are allowd.
+step 18:
+        go again to instances.select your instance and click on connect.
+step 19:    
+        go to SSh client.copy the command to give permission to the key to make it publically viwable.
+step 20:
+        go to the folder where key is placed open the terminal in that folder and paste that change permisssion command.
+step 21:
+        copy the command which is in examle and run the command in the terminal
+step 22: 
+        after that your new ubuntu will be generated on the terminal.
+ step 23: 
+        try to run some commands on that terminal.
+
+

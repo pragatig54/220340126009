@@ -1,0 +1,20 @@
+step 1:
+        frist make one python file in which python code will be created.
+step 2:
+        write the python code in that file and save it in folder.
+step 3:
+        create one dockerfile in same folder.
+step 4:
+        write a code in docker file which pull the image of alpine os and python 3.10 which is used to run the python file.
+        then set the work directory path copy the python code in that work directory then write a command which is used to run python code.
+step 5:
+        then build the docker file using command :
+        sudo docker build -t exam .
+step 6:
+        then run the docker file using command:
+        sudo docker run -it exam
+step 7:
+        create a tag name by using following command
+        1.sudo docker tag tag1:latest pragatig54/pgdiot2022:cloudexam
+        then push the docker file in the repository using command:
+        2.sudo docker push pragatig54/pgdiot2022:cloudexam

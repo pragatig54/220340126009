@@ -1,0 +1,16 @@
+version: '3.3'
+services:
+  mqttbroker:
+    image: eclipse-mosquitto
+    container_name: broker
+    volumes:
+        - /home/diot/Desktop/220340126009/Q5/mosquitto/mosquitto.conf:/mosquitto/config/mosquitto.conf
+    expose:
+      - 1883
+    ports:
+      - "6502:1883"
+  subscriber:
+    build: ./subscriber
+    container_name: subscriber
+    depends_on:
+      - mqttbroker

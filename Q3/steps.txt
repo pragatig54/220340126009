@@ -1,0 +1,57 @@
+step 1:
+        first login to Aws console root user
+step 2: 
+        search for IAM instance.
+step 3:
+        in Access management click on Users.
+step 4: 
+        after that click on add users on right hand side
+step 5:
+        give user name dev-iot-elavate in the field of username. 
+step 6:
+        go to select AWS access type.
+step 7:
+        check in the box of password-AWS management console access.
+step 8:
+        after that console password will open then click on Custome password.
+step 9:
+        after cliking on custome password one textfield will be created in that enter your passward 
+step 10:
+        click on next permission
+step 11:
+        click on attach existing policies directly
+step 12:
+        after clicking on that policies were displayed below which includes name of the policy type and used as.
+step 13:
+        we have to give all permission to only ec2 instance and lambda instance then go to search bar
+step 14:
+        search EC2 instance. then click on AmazonEC2FullAccess.
+step 15 :
+        after that search for lambda and click on AmazonLambdaFullAccess.
+step 16 :
+        click on next tags
+step 17:
+        in Add tags we have to type key and value you can giv any name to key and value 
+        for example: key = developer and value = iot
+step 18:
+        click on next review
+step 19:
+        review page will be open here you can check your policy details.
+step 20:
+        click on create user
+step 21:
+        go to the link  https://472805173562.signin.aws.amazon.com/console
+
+step 22:
+        here they ask for your username and password 
+        enter username which you give in first page ie dev-iot-elavate
+        and then password which is created in the step 9.
+
+step 23:
+        click on sign in 
+step 24:
+    your aws page will be open here then click on the instances which you have not given any permission
+step 25:
+        when you are going to perform operation on instance which do not have any pemission it will throw error.
+    
+
